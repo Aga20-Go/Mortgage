@@ -1,7 +1,5 @@
 streamlit
-GOOGLE_KEY_API
-streamlit-js
-langchain_google_genai
-langchain_core.messages
-dotenv
-load_dotenv
+google-genai>=1.0.0
+langchain-google-genai>=2.1.0
+langgraph>=0.0.30
+langchain>=0.1.0
