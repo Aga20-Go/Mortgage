@@ -1,0 +1,7 @@
+streamlit
+GOOGLE_KEY_API
+streamlit-js
+langchain_google_genai
+langchain_core.messages
+dotenv
+load_dotenv
