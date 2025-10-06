@@ -198,7 +198,7 @@ if not st.session_state.setup_complete:
     if "harga_properti" not in st.session_state: st.session_state["harga_properti"] = 0.0
     if "dp" not in st.session_state: st.session_state["dp"] = 0.0
     if "tenor_tahun" not in st.session_state: st.session_state["tenor_tahun"] = 15
-    if "bunga_tahunan" not in st.session_state: st.session_state["bunga_tahunan"] = 10.0
+    if "bunga_tahunan" not in st.session_state: st.session_state["bunga_tahunan"] = 9.0
     if "max_dsr" not in st.session_state: st.session_state["max_dsr"] = DEFAULT_MAX_DSR
     if "max_ltv" not in st.session_state: st.session_state["max_ltv"] = DEFAULT_MAX_LTV
 
@@ -434,4 +434,5 @@ Instruksi gaya & batasan:
                     st.markdown(ai_text)
             st.session_state.messages.append({"role": "assistant", "content": ai_text})
         except Exception as e:
+
             st.error(f"Error: {e}")
