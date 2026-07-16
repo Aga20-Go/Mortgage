@@ -18,7 +18,7 @@ st.set_page_config(page_title="KPR.AI", page_icon="🏠")
 load_dotenv()  # loads .env in current working dir
 
 APP_TITLE = "🏠 KPR Advisor"
-DEFAULT_MODEL = "gemini-1.5-flash" # Diubah ke model stabil 2026/terbaru
+DEFAULT_MODEL = "gemini-2.5-flash" 
 DEFAULT_TEMPERATURE = 0.5
 
 # Default policy knobs (you can tweak)
